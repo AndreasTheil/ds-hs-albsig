@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 25 23:32:43 2018
+Created on Wed Sep 26 00:00:07 2018
 
 @author: Sergej Schweizer 
-mail:    sergej.schweizer@gmail.com
-"""
+@mail:   sergej.schweizer@gmail.com
 
-"""
-Suggested solution for the "Kontrolaufgabe 1.8 a"
 """
 
 l1=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -18,11 +15,11 @@ print(
         reversed(
             list(
                 map(
-                    lambda a,b,c,d : ((a*b)-(c*d)), \
+                    lambda a,b,c,d: mul(a,b)-mul(c,d),\
                         l1,l2[1:]+[l2[0]],\
                         l1[1:]+[l1[0]],l2\
                     )
                 )
-                )
+            )
         )
     )
