@@ -7,7 +7,7 @@ mail:    sergej.schweizer@gmail.com
 """
 
 """
-Suggested solution for the "Kontrolaufgabe 1.8 a"
+Suggested solution for the "Kontrolaufgabe 1.8 b"
 """
 
 l1=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
