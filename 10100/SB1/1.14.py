@@ -7,7 +7,9 @@ Created on Sat Sep 29 19:23:34 2018
 
 """
 
-print(
+ f = open("Bibel.txt").read()
+
+ print(
 
      any(map(
              lambda zeile: 
