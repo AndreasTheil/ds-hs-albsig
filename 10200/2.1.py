@@ -15,3 +15,7 @@ c = np.arange(100)**2
  b = np.arange(1000)
  b=b[b%13!=0]
  b=b[b%11!=0]
+ 
+ #2.1c
+ o = np.ones(100)
+ o[ [ x for x in range(0,len(o)) if x%2==0] ]=0
